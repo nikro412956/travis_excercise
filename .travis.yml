@@ -6,3 +6,5 @@ notifications:
 
 script:
   - mvn -Dtest=* test
+
+after_failure: /home/travis/build/nikro412956/travis_excercise/target/surefire-reports
