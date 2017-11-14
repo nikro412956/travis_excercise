@@ -1,6 +1,5 @@
 language: java
 sudo: false
 
-script:
- - src/test/java/Travis/tester
+script: "mvn cobertura:cobertura"
 
