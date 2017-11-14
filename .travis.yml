@@ -6,4 +6,4 @@ notifications:
 
 script:
   - mvn install
-  - mvn test
+  - mvn test -B
