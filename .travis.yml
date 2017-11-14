@@ -1,5 +1,5 @@
 language: java
 sudo: false
 
-script: "mvn cobertura:cobertura"
+script: mvn test -f ./source/pom.xml
 
