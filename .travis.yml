@@ -3,6 +3,3 @@ sudo: false
 
 notifications:
   email: false
-
-script: mvn test -f
-
