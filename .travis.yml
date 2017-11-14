@@ -6,3 +6,5 @@ notifications:
 
 script:
   - mvn -Dtest=* test
+
+
