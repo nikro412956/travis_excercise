@@ -4,4 +4,4 @@ sudo: false
 notifications:
   email: false
 
-script: mvn -Dtest=tester test
+script: mvn test
