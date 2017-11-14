@@ -9,11 +9,13 @@ import org.junit.Test;
 public class tester {
     private test t;
 
+    @Before
     public void setUp(){
         t = new test();
     }
 
+    @Test
     public void testt(){
-        assertEquals(4, t.getI());
+        assertEquals(3, t.getI());
     }
 }
