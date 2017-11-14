@@ -4,4 +4,6 @@ sudo: false
 notifications:
   email: false
 
-script: mvn test
+script:
+  - mvn install
+  - mvn test
