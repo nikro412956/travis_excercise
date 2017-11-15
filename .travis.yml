@@ -20,5 +20,6 @@ notifications:
   email: false
 
 script:
+  - mvn exec:java
   - mvn -Dtest=* test
 
