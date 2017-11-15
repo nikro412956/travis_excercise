@@ -16,6 +16,6 @@ public class tostieijzer {
 
     @Test
     public void testt(){
-        assertEquals(9, t.getI());
+        assertEquals(12, t.getI());
     }
 }
