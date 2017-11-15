@@ -16,6 +16,6 @@ public class tester {
 
     @Test
     public void testt(){
-        assertEquals(3, t.getI());
+        assertEquals(2, t.getI());
     }
 }
