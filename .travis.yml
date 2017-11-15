@@ -6,6 +6,12 @@ jdk:
   - oraclejdk9
   - openjdk7
 
+branches:
+  only:
+    - master
+  except:
+    - Nick
+
 notifications:
   email: false
 
