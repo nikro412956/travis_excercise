@@ -50,6 +50,13 @@
                 <includes>test.java.Travis</includes>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>Travis.test</mainClass>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
