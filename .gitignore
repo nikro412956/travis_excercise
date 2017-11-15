@@ -3,3 +3,6 @@
 src/main/resources/
 target/generated-sources/
 target/generated-test-sources/
+.idea/vcs.xml
+.idea/modules.xml
+.idea/compiler.xml
