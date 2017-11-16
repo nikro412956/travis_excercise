@@ -22,5 +22,5 @@ notifications:
 script:
   - mvn exec:java
   - mvn -Dtest=* test
-  - echo $HOME
+  - echo $TRAVIS_JDK_VERSION
 
