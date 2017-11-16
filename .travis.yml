@@ -22,4 +22,5 @@ notifications:
 script:
   - mvn exec:java
   - mvn -Dtest=* test
+  - echo $HOME
 
