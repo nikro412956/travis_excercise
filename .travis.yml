@@ -25,6 +25,7 @@ notifications:
 
 
 script:
+  - ls
   - mvn pmd:pmd
   - mvn exec:java
   - mvn -Dtest=* test
