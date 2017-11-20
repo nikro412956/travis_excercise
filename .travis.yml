@@ -33,5 +33,10 @@ script:
   - echo $TRAVIS_JDK_VERSION
   - cd target
   - cat pmd.xml
+  - cat java-unnecessary.xml
+  - cat java-unusedcode.xml
+  - cat java-imports.xml
+  - ls
+  - cd surefire-reports
   - ls
 
