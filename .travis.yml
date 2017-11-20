@@ -31,4 +31,8 @@ script:
   - mvn exec:java
   - mvn -Dtest=* test
   - echo $TRAVIS_JDK_VERSION
+  - cd ..
+  - ls
+  - cd ..
+  - ls
 
