@@ -33,7 +33,6 @@ script:
   - echo $TRAVIS_JDK_VERSION
   - cd target
   - ls
-  - cd surefire-reports
   - cd maven-status
   - ls
 
