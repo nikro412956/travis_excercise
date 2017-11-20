@@ -32,5 +32,6 @@ script:
   - mvn -Dtest=* test
   - echo $TRAVIS_JDK_VERSION
   - cd target
+  - cat pmd.xml
   - ls
 
