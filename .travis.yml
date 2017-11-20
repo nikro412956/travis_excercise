@@ -17,4 +17,4 @@ notifications:
 
 script:
   - mvn -Dtest=* test
-
+  - echo hello
