@@ -22,13 +22,10 @@ services:
 notifications:
   email: false
 
-before_install:
-  - docker pull owasp/zap2docker-stable
-  - docker run -u zap -p 8080:8080 -i owasp/zap2docker-stable zap.sh -daemon -host 0.0.0.0 -port 8080
-  - docker ps
 
 
 script:
+  - mvn pmd:pmd
   - mvn exec:java
   - mvn -Dtest=* test
   - echo $TRAVIS_JDK_VERSION
