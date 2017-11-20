@@ -27,6 +27,7 @@ notifications:
 script:
   - ls
   - mvn pmd:pmd
+  - ls
   - mvn exec:java
   - mvn -Dtest=* test
   - echo $TRAVIS_JDK_VERSION
