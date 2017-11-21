@@ -26,7 +26,8 @@ notifications:
 
 script:
   - ls
-  - mvn pmd:pmd -r
+  - mvn pmd:pmd --log-file pmd-log.txt
+  - cat pmd-log.txt
   - ls
   - mvn exec:java
   - mvn -Dtest=* test
