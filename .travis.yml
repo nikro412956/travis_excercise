@@ -26,7 +26,7 @@ notifications:
 
 script:
 #  - cat target/pmd.xml
-  - ls $HOME/.m2
+  - ls $HOME/.m2/repository
 #  - ls target
 #  - ls
 #  - mvn pmd:pmd
