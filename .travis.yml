@@ -25,7 +25,8 @@ notifications:
 
 
 script:
-  - cat target/pmd.xml
+#  - cat target/pmd.xml
+  - ls target
   - ls
   - mvn pmd:pmd
   - ls

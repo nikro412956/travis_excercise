@@ -8,3 +8,4 @@ target/generated-test-sources/
 .idea/compiler.xml
 /target/test-classes/
 /target/classes/
+/target/
