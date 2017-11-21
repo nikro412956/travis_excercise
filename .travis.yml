@@ -1,5 +1,6 @@
 language: java
-sudo: required
+#sudo: required only required when you use sudo commands or docker
+sudo: false
 
 cache:
   directories:
@@ -9,8 +10,10 @@ jdk:
   - oraclejdk8
   - oraclejdk9
 
-services:
-  - docker
+
+
+#services:
+#  - docker
 
 
 #branches:
