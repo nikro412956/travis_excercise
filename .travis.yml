@@ -26,7 +26,7 @@ notifications:
 
 script:
   - ls
-  - mvn pmd:pmd -X
+  - mvn pmd
   - mvn pmd:pmd --help
   - mvn pmd:pmd --log-file pmd-log.txt
   - cat pmd-log.txt
