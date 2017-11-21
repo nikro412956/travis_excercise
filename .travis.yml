@@ -26,7 +26,7 @@ notifications:
 
 script:
   - ls
-  - mvn pmd
+  - mvn pmd:check
   - mvn pmd:pmd --help
   - mvn pmd:pmd --log-file pmd-log.txt
   - cat pmd-log.txt
@@ -38,3 +38,5 @@ script:
 #  - cd $HOME
 #  - ls
 
+after_script:
+  - git status
