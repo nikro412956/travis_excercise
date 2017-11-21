@@ -71,6 +71,11 @@
                 <configuration>
                     <failOnViolation>true</failOnViolation> <!-- this is actually true by default, but can be disabled -->
                     <printFailingErrors>true</printFailingErrors>
+                    <rulesets>
+                        <!-- Two rule sets that come bundled with PMD -->
+                        <ruleset>/rulesets/java/braces.xml</ruleset>
+                        <ruleset>/rulesets/java/naming.xml</ruleset>
+                    </rulesets>
                 </configuration>
                 <executions>
                     <execution>
