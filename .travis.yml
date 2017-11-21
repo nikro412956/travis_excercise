@@ -26,17 +26,14 @@ notifications:
 
 script:
 #  - cat target/pmd.xml
-  - ls target
-  - ls
-  - mvn pmd:pmd
-  - ls
+  - ls $HOME/.m2
+#  - ls target
+#  - ls
+#  - mvn pmd:pmd
+#  - ls
   - mvn exec:java
   - mvn -Dtest=* test
   - echo $TRAVIS_JDK_VERSION
   - echo $TRAVIS_BUILD_DIR
 #  - cd $HOME
   - ls
-
-after_script:
-  - git status
-  - git config user.name
