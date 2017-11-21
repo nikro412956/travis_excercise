@@ -76,7 +76,6 @@
                         <ruleset>/rulesets/java/braces.xml</ruleset>
                         <ruleset>/rulesets/java/naming.xml</ruleset>
                     </rulesets>
-                    <format>txt</format>
                 </configuration>
                 <executions>
                     <execution>
