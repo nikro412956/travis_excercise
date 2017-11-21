@@ -73,6 +73,7 @@
                     <printFailingErrors>true</printFailingErrors>
                     <rulesets>
                         <!-- Two rule sets that come bundled with PMD -->
+                        <ruleset>/rulesets/java/basic.xml</ruleset>
                         <ruleset>/rulesets/java/braces.xml</ruleset>
                         <ruleset>/rulesets/java/naming.xml</ruleset>
                     </rulesets>
