@@ -1,8 +1,10 @@
 .idea/workspace.xml
 .idea/inspectionProfiles/
 src/main/resources/
-target
+target/generated-sources/
+target/generated-test-sources/
 .idea/vcs.xml
 .idea/modules.xml
 .idea/compiler.xml
-!target/pmd.xml
+/target/test-classes/
+/target/classes/
