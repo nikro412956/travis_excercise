@@ -1,7 +1,0 @@
-C:\Users\nikro\Documents\travis_excercise\src\main\java\Travis2\tostie.java:1:	Package name contains upper case characters
-C:\Users\nikro\Documents\travis_excercise\src\main\java\Travis2\tostie.java:3:	Class names should begin with an uppercase character
-C:\Users\nikro\Documents\travis_excercise\src\main\java\Travis2\tostie.java:4:	Avoid variables with short names like i
-C:\Users\nikro\Documents\travis_excercise\src\main\java\Travis\test.java:1:	Package name contains upper case characters
-C:\Users\nikro\Documents\travis_excercise\src\main\java\Travis\test.java:3:	Avoid short class names like test
-C:\Users\nikro\Documents\travis_excercise\src\main\java\Travis\test.java:3:	Class names should begin with an uppercase character
-C:\Users\nikro\Documents\travis_excercise\src\main\java\Travis\test.java:4:	Avoid variables with short names like i
