@@ -9,3 +9,5 @@ target/generated-test-sources/
 /target/test-classes/
 /target/classes/
 /target/
+/.idea/
+/.idea/misc.xml
