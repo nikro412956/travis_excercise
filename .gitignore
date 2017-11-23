@@ -9,5 +9,5 @@ target/generated-test-sources/
 /target/test-classes/
 /target/classes/
 /target/
-/.idea/workspace.xml
+/.idea/
 /.idea/misc.xml
